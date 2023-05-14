@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+		integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<link rel="stylesheet" href="./style.css">
+<title>Document</title>
+</head>
+
+<body>
+	<header>
+		<div class="header_section">
+			<nav>
+				<ul class='nav-bar'>
+					<input type='checkbox' id='check' />
+					<span class="menu">
+						<li><a href="">Home</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Services</a></li>
+						<li><a href="">Packages</a></li>
+						<li><a href="">Pages</a></li>
+						<li><a href="">Contact</a></li>
+						<li><a href="">Register</a></li>
+						<label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+					</span>
+					<label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="slider">
+		<button class="prev" onclick="prevSlide()">&#10094;</button>
+		<div class="slides">
+			<img src="./img/image1.jpg" alt="">
+			<img src="./img/image2.jpg" alt="">
+			<img src="./img/image3.jpg" alt="">
+		</div>
+		<button class="next" onclick="nextSlide()">&#10095;</button>
+	</div>
+
+	<div class="btns">
+		<button class="first">1</button>
+		<button class="second">2</button>
+		<button class="third">3</button> <br>
+	</div>
+	<div class="tab">He as compliment unreserved projecting. Between had observe pretend delight for believe. Do
+		newspaper questions consulted sweetness do. Our sportsman his unwilling fulfilled departure law. Now world own
+		total saved above her cause table. Wicket myself her square remark the should far secure sex. Smiling cousins
+		warrant law explain for whether.
+	</div>
+	<div class="section_3">
+		<div class="part_1">
+			<h1>Title</h1>
+			<p>Two assure edward whence the was. Who worthy yet ten boy denote wonder. Weeks views her sight old tears
+				sorry. Additions can suspected its concealed put furnished. Met the why particular devonshire decisively
+				considered partiality. Certain it waiting no entered is. Passed her indeed uneasy shy polite appear
+				denied. Oh less girl no walk. At he spot with five of view.</p>
+			<img src="./img/image2.jpg" alt="">
+		</div>
+		<div class="part_2">
+			<button class="back">Change Background</button> <br>
+			<button class="hide">Delete Photo</button> 
+			<button class="change">Change Photo</button>
+			<input type="text" class="newTitle" placeholder="Enter Your Title">
+			<button class="title">Enter your Title</button> <br>
+			<input class="input" type="number" placeholder="Enter Font Size">
+			<button class="fontSize">Enter Font Size</button>
+		</div>
+	</div>
+</body>
+<script src="./script.js"></script>
+
+</html>
